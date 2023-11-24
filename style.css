@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.containor {
+  background-color: rgba(0, 0, 0, 0.904);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.button {
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 0px 2px;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.row {
+  margin: 5px 0px;
+}
+.row input {
+  width: 280px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.oprationBtn {
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 0px 2px;
+  border: none;
+  border-radius: 50%;
+  background-color: yellow;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.button:active {
+  background-color: rgb(153, 148, 148);
+  border-radius: 5px;
+}
+.oprationBtn:active {
+  background-color: yellow;
+  border-radius: 5px;
+}
